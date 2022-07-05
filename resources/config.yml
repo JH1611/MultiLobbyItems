@@ -1,0 +1,29 @@
+
+world:
+  world: #world name
+    killer: #change de name to your use 
+      slot: 1 #Inventory slot for item only numbers 1-9
+      item-id: 276 #item id for give to player
+      item-name: "Killer" #¡IMPORTANT! do not use default item name, better use a name respective to function like this
+      command: "kill {player}" #Execute a command when right-click the item, use {player} to affect him
+
+
+#How to add worlds an more items
+# world:
+#   world: 
+#     killer: 
+#       slot: 1 
+#       item-id: 276 
+#       item-name: "Killer" 
+#       command: "kill {player}" 
+#   world2: <- In the world called "world2" will add 2 items
+#     anyName: 
+#       slot: 1 
+#       item-id: 1 
+#       item-name: "Example" 
+#       command: "xp 15 {player}" 
+#     anyName2: 
+#       slot: 1 
+#       item-id: 2 
+#       item-name: "Example 2" 
+#       command: "xp 20 {player}" 

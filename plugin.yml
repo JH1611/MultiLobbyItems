@@ -1,0 +1,7 @@
+---
+name: MultiLobbyItems
+version: 0.0.1
+main: JH1611\MultiLobbyItems\Main
+api: 4.5.1
+src-namespace-prefix: JH1611\MultiLobbyItems
+...
