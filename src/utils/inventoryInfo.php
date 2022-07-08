@@ -11,7 +11,7 @@ class inventoryInfo {
 
     public function __construct(Main $main)
     {
-        return $this -> main = $main;
+        $this -> main = $main;
     }
 
     public function canKeepInv(Player $player): bool{
@@ -57,4 +57,3 @@ class inventoryInfo {
         return "error";
     }
 }
-?>

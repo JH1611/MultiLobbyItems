@@ -12,7 +12,7 @@ class playerWorldInfo {
 
     public function __construct(Main $main)
     {
-        return $this -> main = $main;
+        $this -> main = $main;
     }
 
     public function isTpLobby(string $world):bool{
@@ -43,5 +43,3 @@ class playerWorldInfo {
     }
     
 }
-
-?>
